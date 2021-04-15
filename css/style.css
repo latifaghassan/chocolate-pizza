@@ -98,3 +98,15 @@ header nav{
   width: 100%;
   margin-top: 20px;
 }
+
+/************************ main para section *****************************/
+
+#para{
+  margin-top: 50px;
+  font-size: 20px;
+  text-indent: 40px;
+  color: grey;
+}
+#para p{
+  line-height: 30px;
+}
