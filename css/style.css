@@ -138,7 +138,7 @@ header nav{
 #form2{
   position: absolute;
   top: 80px;
-  right: 30em;
+  right: 22em;
   width: 30em;
 }
 
@@ -198,3 +198,24 @@ footer{
   color: white;
 }
 
+#footer-2{
+  position: relative;
+  margin-top: 100px;
+  border-top: 1px solid lightgray;
+  
+}
+
+#footer-img{
+  position: absolute;
+  top: -18px;
+  left: 50%;
+}
+
+#footer-2 p{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px ;
+  padding-left: 40px ;
+  line-height: 20px;
+  
+}
