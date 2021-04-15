@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 10px 120px 10px 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*********************** header ***********************/
+
+header{
+  position: relative;
+  height: 85px;
+}
+
+#logo{
+  position: absolute;
+  left: 0;
+}
+
+header h1{
+  position: absolute;
+  left: 50px;
+  top:0;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-style: italic;
+}
+
+header p{
+ font-size: 14px;
+ position: absolute;
+ left: 52px;
+ top: 32px;
+}
+
+header nav{
+  position: absolute;
+  right: 0px;
+  top: 12px;
+}
+
+#rss{
+  padding-left: 10px;
+}
+
+#border{
+  width: 100%;
+  top: 70px;
+  left: 0;
+  height: 13px;
+  background: url(/img/hr-img.png)
+}
+
+/*********************** main ***********************/
+
+#row-1{
+  position: relative;
+  margin-top: 50px;
+}
+
+#row-1 h2{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+
+#row-1 nav{
+  position: absolute;
+  right:0;
+  bottom:0;
+}
+
+#row-1 img{
+  position: absolute;
+  right: 40px;
+}
+
+#row-1 p{
+  color: gray;
+  font-size: 13px;
+}
+
+#row1-p{
+  padding-left: 4px;
+  padding-top: 4px ;
+}
+
+#photo{
+  width: 100%;
+  margin-top: 20px;
+}
+
+/************************ main para section *****************************/
+
+#para{
+  margin-top: 50px;
+  font-size: 20px;
+  text-indent: 40px;
+  color: grey;
+}
+#para p{
+  line-height: 30px;
+}
+
+/************************ main checkbox section *****************************/
+
+#checkbox{
+  position: relative;
+  margin-top: 30px;
+}
+
+#checkbox img{
+  width: 100%;
+ 
+}
+
+#form1{
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  width: 40%;
+
+}
+
+#checkbox input{
+  height: 35px;
+  transform: scale(1.6);
+  color: grey;
+}
+
+#form2{
+  position: absolute;
+  top: 80px;
+  right: 22em;
+  width: 30em;
+}
+
+#form1 p{
+  position: absolute;
+  top: 8px ;
+  left: 45px;
+  line-height: 28px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  color: rgb(109, 112, 90);
+}
+
+#form2 p{
+  position: absolute;
+  top: 8px ;
+  left: 45px;
+  line-height: 28px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  color: rgb(109, 112, 90);
+}
+
+/******************** footer ***********************************/
+
+footer{
+  margin-top: 30px;
+  color: grey;
+  font-family: serif;
+}
+
+#footer-1{
+  position: relative;
+  margin-top: 20px;
+}
+
+#footer-1 article{
+  position: absolute;
+  left: 90px;
+  top: 10px;
+  width: 80%;
+}
+
+#footer-1 h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#footer-1 button{
+  position: absolute;
+  right: 0;
+  top: 12px;
+  height: 45px;
+  width: 160px;
+  border: none;
+  background-color: #b66a47;
+  color: white;
+}
+
+#footer-2{
+  position: relative;
+  margin-top: 100px;
+  border-top: 1px solid lightgray;
+  
+}
+
+#footer-img{
+  position: absolute;
+  top: -18px;
+  left: 50%;
+}
+
+#footer-2 p{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px ;
+  padding-left: 40px ;
+  line-height: 20px;
+  
+}
