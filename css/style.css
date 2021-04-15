@@ -54,7 +54,7 @@ header nav{
   width: 100%;
   top: 70px;
   left: 0;
-  height: 10px;
+  height: 13px;
   background: url(/img/hr-img.png)
 }
 
@@ -163,3 +163,38 @@ header nav{
 }
 
 /******************** footer ***********************************/
+
+footer{
+  margin-top: 30px;
+  color: grey;
+  font-family: serif;
+}
+
+#footer-1{
+  position: relative;
+  margin-top: 20px;
+}
+
+#footer-1 article{
+  position: absolute;
+  left: 90px;
+  top: 10px;
+  width: 80%;
+}
+
+#footer-1 h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#footer-1 button{
+  position: absolute;
+  right: 0;
+  top: 12px;
+  height: 45px;
+  width: 160px;
+  border: none;
+  background-color: #b66a47;
+  color: white;
+}
+
