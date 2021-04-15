@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Passion+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 *{
   box-sizing: border-box;
@@ -62,13 +62,14 @@ header nav{
 
 #row-1{
   position: relative;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #row-1 h2{
   font-size: 40px;
   font-weight: bolder;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
 }
 
 #row-1 nav{
@@ -147,7 +148,7 @@ header nav{
   top: 8px ;
   left: 45px;
   line-height: 28px;
-  font-family: 'Staatliches', cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 30px;
   color: rgb(109, 112, 90);
 }
@@ -157,7 +158,7 @@ header nav{
   top: 8px ;
   left: 45px;
   line-height: 28px;
-  font-family: 'Staatliches', cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 30px;
   color: rgb(109, 112, 90);
 }
