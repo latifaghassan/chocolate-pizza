@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-/* font-family: 'Staatliches', cursive; */
-
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Passion+One&family=Staatliches&display=swap');
 
 *{
@@ -110,3 +108,58 @@ header nav{
 #para p{
   line-height: 30px;
 }
+
+/************************ main checkbox section *****************************/
+
+#checkbox{
+  position: relative;
+  margin-top: 30px;
+}
+
+#checkbox img{
+  width: 100%;
+ 
+}
+
+#form1{
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  width: 40%;
+
+}
+
+#checkbox input{
+  height: 35px;
+  transform: scale(1.6);
+  color: grey;
+}
+
+#form2{
+  position: absolute;
+  top: 80px;
+  right: 30em;
+  width: 30em;
+}
+
+#form1 p{
+  position: absolute;
+  top: 8px ;
+  left: 45px;
+  line-height: 28px;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  color: rgb(109, 112, 90);
+}
+
+#form2 p{
+  position: absolute;
+  top: 8px ;
+  left: 45px;
+  line-height: 28px;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  color: rgb(109, 112, 90);
+}
+
+/******************** footer ***********************************/
